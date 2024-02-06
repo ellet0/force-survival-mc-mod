@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.freshplatform.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "DifficultyCommandMixin",
+    "ExperienceCommandMixin",
+    "GameModeCommandMixin",
+    "GiveCommandMixin",
+    "TeleportCommandMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
